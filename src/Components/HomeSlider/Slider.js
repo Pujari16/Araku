@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useCallback, useEffect, useState } from 'react'
 import './Slider.css'
 import img1 from '../../Images/home1.jpg'
 import img2 from '../../Images/home2.jpg'
@@ -18,17 +18,18 @@ const Slider = () => {
         setSlider(slider === 0 ? data.length-1 : slider-1)
     }
 
-    const HandlePlus =()=>{
-      setSlider(slider === data.length - 1 ? 0 : slider + 1)
-    }
+    const HandlePlus = useCallback(() => {
+      setSlider((prevSlider) => (prevSlider === data.length - 1 ? 0 : prevSlider + 1));
+  }, [data.length]);
 
-    useEffect(() => {
+  useEffect(() => {
       const sliderClear = setInterval(() => {
           HandlePlus();
       }, 2000);
-  
+
       return () => clearInterval(sliderClear);
-  }, [slider, HandlePlus]);
+  }, [HandlePlus]);
+  
   return (
 
 
