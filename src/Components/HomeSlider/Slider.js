@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import './Slider.css'
 import img1 from '../../Images/home1.jpg'
 import img2 from '../../Images/home2.jpg'
@@ -22,15 +22,16 @@ const Slider = () => {
       setSlider(slider === data.length - 1 ? 0 : slider + 1)
     }
 
-
-    useEffect(()=>{
-        const sliderClear = setInterval(()=>{
-           HandlePlus()
-        },2000) 
-
-        return()=>clearInterval(sliderClear)
-    },[slider])
+    useEffect(() => {
+      const sliderClear = setInterval(() => {
+          HandlePlus();
+      }, 2000);
+  
+      return () => clearInterval(sliderClear);
+  }, [slider, HandlePlus]);
   return (
+
+
     <div>
     <div className='slider-container'>
       <div className='slider-img'>

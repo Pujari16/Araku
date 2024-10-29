@@ -13,17 +13,17 @@ const Navbar = () => {
         setShowMenu(!showMenu);
     };
 
-    const toggleDropdown = () => {
-        setShowDropdown(!showDropdown);
-    };
+    // const toggleDropdown = () => {
+    //     setShowDropdown(!showDropdown);
+    // };
 
-    const closeDropdown = () => {
-        setShowDropdown(false);
-    };
+    // const closeDropdown = () => {
+    //     setShowDropdown(false);
+    // };
 
-    const handleContactClick = () => {
-        setShowContact(!showContact);
-    };
+    // const handleContactClick = () => {
+    //     setShowContact(!showContact);
+    // };
 
     const handleClick = (event) => {
         if (contactRef.current && !contactRef.current.contains(event.target)) {

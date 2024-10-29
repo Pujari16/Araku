@@ -2,9 +2,7 @@ import React from 'react'
 import Slider from '../HomeSlider/Slider'
 import './Home.css'
 import OurStory from '../HomeHistory/History'
-import Footer from '../Footer/Footer'
 import Rooms from '../Rooms/Rooms'
-// import Footer from '../Footer/Footer'
 const Home = () => {
   return (
     <div className='home-container'>

@@ -8,7 +8,7 @@ const OurStory = () => {
   return (
   <div className="ourstory-container">
     <div className="ourstory-image">
-      <img  src={home1} alt="no image"/>
+      <img  src={home1} alt="notfound"/>
     </div>
     <div className="ourstory-content" >
     <h2>Our Story</h2>
