@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Araku/static/css/main.fdfa3cac.css",
+    "main.js": "/Araku/static/js/main.521d42a4.js",
+    "static/media/home2.jpg": "/Araku/static/media/home2.b4bcc90c2e17741c825f.jpg",
+    "static/media/wa.png": "/Araku/static/media/wa.a11860d4f66c9ede33a0.png",
+    "static/media/home5.jpg": "/Araku/static/media/home5.14923ddb2d8a418071df.jpg",
+    "static/media/home1.jpg": "/Araku/static/media/home1.9bfc3bc2d6b65e645aac.jpg",
+    "static/media/ig.png": "/Araku/static/media/ig.3be26d997df9f8474e02.png",
+    "static/media/AboutImg1.jpeg": "/Araku/static/media/AboutImg1.9f6d765410b8788f360e.jpeg",
+    "static/media/fb.png": "/Araku/static/media/fb.e22c3ec7a31fea850635.png",
+    "static/media/image_1.jpg": "/Araku/static/media/image_1.5b50ad517e7606e11030.jpg",
+    "static/media/ContactImg.webp": "/Araku/static/media/ContactImg.c6550afb094955cad02f.webp",
+    "static/media/home4.jpg": "/Araku/static/media/home4.34b684e93dcb966cf66c.jpg",
+    "static/media/ResortLogo.jpeg": "/Araku/static/media/ResortLogo.2dd205d7840f4107e0d7.jpeg",
+    "index.html": "/Araku/index.html",
+    "main.fdfa3cac.css.map": "/Araku/static/css/main.fdfa3cac.css.map",
+    "main.521d42a4.js.map": "/Araku/static/js/main.521d42a4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fdfa3cac.css",
+    "static/js/main.521d42a4.js"
+  ]
+}
